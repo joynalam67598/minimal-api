@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalAPIApp", "MinimalAPIApp.csproj", "{6CDEEC3D-3744-429F-A004-90A8369044EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalAPIApp", "MinimalAPIApp.csproj", "{6CDEEC3D-3744-429F-A004-90A8369044EA}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "..\UserDB\UserDB.sqlproj", "{8117DE4C-E345-48AB-9BAA-D42DABEE6268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{3857BD6E-7DF8-47C9-8AE7-AB74FA38F7AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{374FFE04-76AE-455C-A3D7-B607531E9496}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +30,10 @@ Global
 		{8117DE4C-E345-48AB-9BAA-D42DABEE6268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8117DE4C-E345-48AB-9BAA-D42DABEE6268}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8117DE4C-E345-48AB-9BAA-D42DABEE6268}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3857BD6E-7DF8-47C9-8AE7-AB74FA38F7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3857BD6E-7DF8-47C9-8AE7-AB74FA38F7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3857BD6E-7DF8-47C9-8AE7-AB74FA38F7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3857BD6E-7DF8-47C9-8AE7-AB74FA38F7AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
