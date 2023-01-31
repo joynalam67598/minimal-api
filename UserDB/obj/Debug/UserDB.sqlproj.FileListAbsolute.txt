@@ -1,0 +1,5 @@
+D:\Projects\minimal-api\UserDB\bin\Debug\UserDB.dacpac
+D:\Projects\minimal-api\UserDB\bin\Debug\UserDB.dll
+D:\Projects\minimal-api\UserDB\bin\Debug\UserDB.pdb
+D:\Projects\minimal-api\UserDB\obj\Debug\UserDB.dll
+D:\Projects\minimal-api\UserDB\obj\Debug\UserDB.pdb
